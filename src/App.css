@@ -1,5 +1,61 @@
+.cf-select {
+    text-align: left;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
+}
+
+.optional-fields-container {
+    margin-top: 25px;
+}
+
+.copy-info {
+    user-select: none;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.copy-anim {
+    display: none;
+    position: absolute;
+    color: #023302;
+}
+
+.copy-info-bottom {
+    text-align: center;
+    background-color: #e46c6c;
+    font-weight: 100;
+    color: #ffffff;
+    padding: 4px;
+}
+
+.optional-fields .optional-field .row .optional-field-value
+{
+    margin-bottom: 0 !important;
+}
+
+.txt-record span {
+    cursor: text;
+}
+
+.txt-record {
+    text-align: center;
+    padding: 3rem;
+    background-color: #def7ff;
+}
+
+.currency-field label, label.recipient-address {
+    font-weight: bold;
+}
+
+.App h1
+{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .App-logo {
