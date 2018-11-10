@@ -15,7 +15,7 @@ npm install
 npm run build
 ```
 
-The open index.html from the /dist folder.
+The open index.html from the /build folder.
 
 ## Developing
 
