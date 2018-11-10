@@ -27,12 +27,12 @@ Use `npm run start` to start a local dev server.  A browser window to http://loc
 
 ## References Used
 
-https://openalias.org/#extend
-https://kjur.github.io/jsrsasign/
-https://kjur.github.io/jsrsasign/sample/sample-rsasign.html
-https://github.com/kjur/jsrsasign/wiki/Tutorial-for-Signature-class
-https://kjur.github.io/jsrsasign/api/symbols/KJUR.crypto.Signature.html
-https://developers.google.com/speed/public-dns/docs/dns-over-https
-https://wiki.parity.io/JSONRPC-personal-module#personal_sign
-https://wiki.parity.io/JSONRPC-personal-module#personal_ecrecover
+- https://openalias.org/#extend
+- https://kjur.github.io/jsrsasign/
+- https://kjur.github.io/jsrsasign/sample/sample-rsasign.html
+- https://github.com/kjur/jsrsasign/wiki/Tutorial-for-Signature-class
+- https://kjur.github.io/jsrsasign/api/symbols/KJUR.crypto.Signature.html
+- https://developers.google.com/speed/public-dns/docs/dns-over-https
+- https://wiki.parity.io/JSONRPC-personal-module#personal_sign
+- https://wiki.parity.io/JSONRPC-personal-module#personal_ecrecover
 
