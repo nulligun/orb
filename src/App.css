@@ -20,9 +20,19 @@
 }
 
 .copy-anim {
-    display: none;
+    cursor: none;
     position: absolute;
     color: #023302;
+    transform-origin: bottom center;
+    background-color: darkseagreen;
+    border: solid 1px #def7ff;
+    border-radius: 14px;
+    width: 65px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 2px;
+    pointer-events: none;
 }
 
 .copy-info-bottom {
@@ -33,6 +43,16 @@
     padding: 4px;
 }
 
+.copiable {
+    cursor: pointer;
+}
+
+.copied .copy-info-bottom{
+    font-weight: bold;
+    background-color: #1c7430;
+    user-select: none;
+}
+
 .optional-fields .optional-field .row .optional-field-value
 {
     margin-bottom: 0 !important;
@@ -40,6 +60,28 @@
 
 .txt-record span {
     cursor: text;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.animating .txt-record {
+    cursor: none;
+}
+
+.copy-animating {
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: block;
+}
+
+.copy-not-animating {
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: none;
 }
 
 .txt-record {

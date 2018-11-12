@@ -74,7 +74,9 @@ class App extends Component {
 	          </div>
 		      </div>
 
+		      <div className="txt-billboard">
 		      <TxtBillboard state={this.state} fields={this.fields} />
+		      </div>
 
 		      <div className="optional-fields-container">
 		      <h5>Optional Fields</h5>
