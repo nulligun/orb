@@ -102,7 +102,7 @@ class TxtBillboard extends Component {
 			let missing = [];
 			if (state.currency_symbol === "") missing.push(<span>select a <span style={{fontWeight: "bold"}}>Currency Symbol</span></span>);
 			if (state.recipient_address === "") {
-				if (missing.length > 0) missing.push(<span> and </span>);
+				if (missing.length > 0) missing.push(<span>&nbsp;and&nbsp;</span>);
 				missing.push(<span>enter a <span style={{fontWeight: "bold"}}>Recipient Address</span></span>);
 			}
 			res = (<div>Please {missing} to build a record.</div>);
