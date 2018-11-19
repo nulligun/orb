@@ -1,6 +1,5 @@
-import {CopyToClipboard} from "react-copy-to-clipboard";
 import React, {Component} from "react";
-import { keyframes, easing, styler, spring, chain, delay, parallel } from 'popmotion';
+import { keyframes, easing, styler, spring, delay, parallel } from 'popmotion';
 
 const CRC32 = require('crc-32');
 
