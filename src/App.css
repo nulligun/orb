@@ -59,6 +59,7 @@
 }
 
 .txt-record span {
+    word-break: break-word;
     cursor: text;
     width: auto;
     margin-left: auto;
